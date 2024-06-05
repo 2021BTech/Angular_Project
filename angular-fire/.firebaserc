@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "angular-fire-a07e3": {
+      "hosting": {
+        "angular-fire": [
+          "angular-fire-a07e3"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "angular-fire-a07e3"
+  }
+}

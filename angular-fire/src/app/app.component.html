@@ -1,0 +1,18 @@
+<div class="flex justify-center items-center h-screen bg-gradient-to-br from-[#CDE8E5] to-[#4D869C]">
+  <form action="" class="w-90" #f="ngForm" (ngSubmit)="addData(f)">
+    <h1 class="text-center text-2xl text-red-600">Angular Fire Store</h1>
+    <div class="">
+      <label for="name">Name:</label>
+      <input type="text" class="w-full p-4 m-4 border-2 rounded-md border-gray-500" name="name" id="name" placeholder="Enter name" ngModel>
+    </div>
+    <div class="">
+      <label for="email">Email:</label>
+      <input type="email" class="w-full p-4 m-4 border-2 rounded-md border-gray-500" name="email" id="email" placeholder="Enter email" ngModel>
+    </div>
+    <div class="">
+      <label for="password">Password:</label>
+      <input type="password" class="w-full p-4 m-4 border-2 rounded-md border-gray-500" name="password" id="password" placeholder="Enter password" ngModel>
+    </div>
+    <button type="submit" class="w-full p-4 m-4 bg-red-600 text-white rounded-md">Submit</button>
+  </form>
+</div>
